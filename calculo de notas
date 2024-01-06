@@ -1,0 +1,11 @@
+#entrada
+n1 = float(input("informe a sua nota1 "))
+n2 = float(input("informe a sua nota2 "))
+n3 = float(input("informe a sua nota3 "))
+n4 = float(input("informe a sua nota4 "))
+soma = (n1+n2+n3+n4)/4
+#processamento
+if soma > 6 :
+    print(f"{soma} aprovado")
+else:
+    print(f"{soma} reprovado")
