@@ -1,0 +1,7 @@
+#entrada
+horas_trabalhadas = int(input("quantidade de horas trabalhadas "))
+valor_horas = float(input("valor das horas "))
+#processamento
+salario = valor_horas * horas_trabalhadas
+#saida
+print(f"neste mes voce vai receber {salario:.2f}")
