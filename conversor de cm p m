@@ -1,0 +1,6 @@
+#entrada
+centimetros = float(input("informe o valor em centimetros "))
+#processamento
+metros= (centimetros / 100)
+#saida
+print(f"{centimetros} centimetros em centimetro {metros}")
